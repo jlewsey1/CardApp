@@ -7,18 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432C4A78290F8BE20006DCA3 /* FullArtCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C4A77290F8BE20006DCA3 /* FullArtCardView.swift */; };
+		432C4A7A290F8EE50006DCA3 /* FullArtTrainerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C4A79290F8EE50006DCA3 /* FullArtTrainerCardView.swift */; };
+		432C4A7C290F93F70006DCA3 /* HFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C4A7B290F93F70006DCA3 /* HFCardView.swift */; };
+		432C4A7E290F95690006DCA3 /* SFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C4A7D290F95690006DCA3 /* SFCardView.swift */; };
+		4386DCC229188FBF005E1DDB /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386DCC129188FBF005E1DDB /* TestView.swift */; };
+		4386DCC42918D4A3005E1DDB /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386DCC32918D4A3005E1DDB /* FirestoreManager.swift */; };
+		4386DCC62918EC44005E1DDB /* NewProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386DCC52918EC44005E1DDB /* NewProductView.swift */; };
+		43939434290EE2A80063A0B0 /* CharacterRareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939433290EE2A80063A0B0 /* CharacterRareView.swift */; };
+		43939436290EEECD0063A0B0 /* SecretRareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939435290EEECD0063A0B0 /* SecretRareView.swift */; };
+		4393943B290EFAD50063A0B0 /* CardViewSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393943A290EFAD50063A0B0 /* CardViewSelector.swift */; };
+		4393943D290F02A00063A0B0 /* NoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393943C290F02A00063A0B0 /* NoSelectView.swift */; };
+		4393943F290F03700063A0B0 /* BoosterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393943E290F03700063A0B0 /* BoosterBoxView.swift */; };
+		43939441290F072A0063A0B0 /* PremiumCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939440290F072A0063A0B0 /* PremiumCollectionView.swift */; };
+		43939443290F0A620063A0B0 /* EliteTrainerBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939442290F0A620063A0B0 /* EliteTrainerBoxView.swift */; };
+		43939445290F0C340063A0B0 /* AlternateArtBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939444290F0C340063A0B0 /* AlternateArtBoxView.swift */; };
+		43939447290F0FAE0063A0B0 /* MiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939446290F0FAE0063A0B0 /* MiscView.swift */; };
+		43939449290F16280063A0B0 /* AlternateArtCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939448290F16280063A0B0 /* AlternateArtCardView.swift */; };
+		4393944B290F1A350063A0B0 /* UniqueCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393944A290F1A350063A0B0 /* UniqueCardView.swift */; };
+		43C328A22918887E00407313 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C328A12918887E00407313 /* SettingsView.swift */; };
+		43D74DFE29123BAC00A78D5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D74DFD29123BAC00A78D5E /* LoginView.swift */; };
+		43D74E0029123D1600A78D5E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D74DFF29123D1600A78D5E /* SignUpView.swift */; };
+		43D74E0229123D4A00A78D5E /* JacobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D74E0129123D4A00A78D5E /* JacobView.swift */; };
 		43DCF2AE290E57DD00B46A8F /* CardAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DCF2AD290E57DD00B46A8F /* CardAppApp.swift */; };
 		43DCF2B0290E57DD00B46A8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DCF2AF290E57DD00B46A8F /* ContentView.swift */; };
 		43DCF2B2290E57DF00B46A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DCF2B1290E57DF00B46A8F /* Assets.xcassets */; };
 		43DCF2B5290E57DF00B46A8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DCF2B4290E57DF00B46A8F /* Preview Assets.xcassets */; };
+		43E3A20E29131799004CD358 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 43E3A20D29131799004CD358 /* FirebaseAuth */; };
+		43E3A21029131799004CD358 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 43E3A20F29131799004CD358 /* FirebaseFirestore */; };
+		43E3A21229131857004CD358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A21129131857004CD358 /* GoogleService-Info.plist */; };
+		43E3A21429138D54004CD358 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A21329138D54004CD358 /* StartingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432C4A77290F8BE20006DCA3 /* FullArtCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullArtCardView.swift; sourceTree = "<group>"; };
+		432C4A79290F8EE50006DCA3 /* FullArtTrainerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullArtTrainerCardView.swift; sourceTree = "<group>"; };
+		432C4A7B290F93F70006DCA3 /* HFCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFCardView.swift; sourceTree = "<group>"; };
+		432C4A7D290F95690006DCA3 /* SFCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCardView.swift; sourceTree = "<group>"; };
+		4386DCC129188FBF005E1DDB /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		4386DCC32918D4A3005E1DDB /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		4386DCC52918EC44005E1DDB /* NewProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductView.swift; sourceTree = "<group>"; };
+		43939433290EE2A80063A0B0 /* CharacterRareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRareView.swift; sourceTree = "<group>"; };
+		43939435290EEECD0063A0B0 /* SecretRareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretRareView.swift; sourceTree = "<group>"; };
+		4393943A290EFAD50063A0B0 /* CardViewSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewSelector.swift; sourceTree = "<group>"; };
+		4393943C290F02A00063A0B0 /* NoSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectView.swift; sourceTree = "<group>"; };
+		4393943E290F03700063A0B0 /* BoosterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoosterBoxView.swift; sourceTree = "<group>"; };
+		43939440290F072A0063A0B0 /* PremiumCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCollectionView.swift; sourceTree = "<group>"; };
+		43939442290F0A620063A0B0 /* EliteTrainerBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliteTrainerBoxView.swift; sourceTree = "<group>"; };
+		43939444290F0C340063A0B0 /* AlternateArtBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateArtBoxView.swift; sourceTree = "<group>"; };
+		43939446290F0FAE0063A0B0 /* MiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscView.swift; sourceTree = "<group>"; };
+		43939448290F16280063A0B0 /* AlternateArtCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateArtCardView.swift; sourceTree = "<group>"; };
+		4393944A290F1A350063A0B0 /* UniqueCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueCardView.swift; sourceTree = "<group>"; };
+		43C328A12918887E00407313 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		43D74DFD29123BAC00A78D5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		43D74DFF29123D1600A78D5E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		43D74E0129123D4A00A78D5E /* JacobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacobView.swift; sourceTree = "<group>"; };
 		43DCF2AA290E57DD00B46A8F /* CardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DCF2AD290E57DD00B46A8F /* CardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAppApp.swift; sourceTree = "<group>"; };
 		43DCF2AF290E57DD00B46A8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43DCF2B1290E57DF00B46A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DCF2B4290E57DF00B46A8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43E3A21129131857004CD358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43E3A21329138D54004CD358 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +76,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E3A20E29131799004CD358 /* FirebaseAuth in Frameworks */,
+				43E3A21029131799004CD358 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437682462915FD9700E610F4 /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				43D74DFF29123D1600A78D5E /* SignUpView.swift */,
+				43D74DFD29123BAC00A78D5E /* LoginView.swift */,
+				43DCF2AF290E57DD00B46A8F /* ContentView.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		437682472916E40700E610F4 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				4393943E290F03700063A0B0 /* BoosterBoxView.swift */,
+				43939442290F0A620063A0B0 /* EliteTrainerBoxView.swift */,
+				43939440290F072A0063A0B0 /* PremiumCollectionView.swift */,
+				43939444290F0C340063A0B0 /* AlternateArtBoxView.swift */,
+				43939446290F0FAE0063A0B0 /* MiscView.swift */,
+				43939439290EF9700063A0B0 /* CardViews */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		43939439290EF9700063A0B0 /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				4393943A290EFAD50063A0B0 /* CardViewSelector.swift */,
+				43939448290F16280063A0B0 /* AlternateArtCardView.swift */,
+				43939435290EEECD0063A0B0 /* SecretRareView.swift */,
+				432C4A7D290F95690006DCA3 /* SFCardView.swift */,
+				432C4A7B290F93F70006DCA3 /* HFCardView.swift */,
+				4393944A290F1A350063A0B0 /* UniqueCardView.swift */,
+				43939433290EE2A80063A0B0 /* CharacterRareView.swift */,
+				432C4A77290F8BE20006DCA3 /* FullArtCardView.swift */,
+				4393943C290F02A00063A0B0 /* NoSelectView.swift */,
+				432C4A79290F8EE50006DCA3 /* FullArtTrainerCardView.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
 		43DCF2A1290E57DD00B46A8F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +143,13 @@
 		43DCF2AC290E57DD00B46A8F /* CardApp */ = {
 			isa = PBXGroup;
 			children = (
+				437682472916E40700E610F4 /* SubViews */,
+				43E3A21529138D61004CD358 /* NewUserViews */,
+				437682462915FD9700E610F4 /* LoginViews */,
 				43DCF2AD290E57DD00B46A8F /* CardAppApp.swift */,
-				43DCF2AF290E57DD00B46A8F /* ContentView.swift */,
+				4386DCC129188FBF005E1DDB /* TestView.swift */,
+				4386DCC32918D4A3005E1DDB /* FirestoreManager.swift */,
+				43E3A21129131857004CD358 /* GoogleService-Info.plist */,
 				43DCF2B1290E57DF00B46A8F /* Assets.xcassets */,
 				43DCF2B3290E57DF00B46A8F /* Preview Content */,
 			);
@@ -65,6 +162,17 @@
 				43DCF2B4290E57DF00B46A8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43E3A21529138D61004CD358 /* NewUserViews */ = {
+			isa = PBXGroup;
+			children = (
+				43D74E0129123D4A00A78D5E /* JacobView.swift */,
+				43E3A21329138D54004CD358 /* StartingView.swift */,
+				4386DCC52918EC44005E1DDB /* NewProductView.swift */,
+				43C328A12918887E00407313 /* SettingsView.swift */,
+			);
+			path = NewUserViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,10 @@
 			dependencies = (
 			);
 			name = CardApp;
+			packageProductDependencies = (
+				43E3A20D29131799004CD358 /* FirebaseAuth */,
+				43E3A20F29131799004CD358 /* FirebaseFirestore */,
+			);
 			productName = CardApp;
 			productReference = 43DCF2AA290E57DD00B46A8F /* CardApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 43DCF2A1290E57DD00B46A8F;
+			packageReferences = (
+				43E3A20C29131799004CD358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 43DCF2AB290E57DD00B46A8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +242,7 @@
 			files = (
 				43DCF2B5290E57DF00B46A8F /* Preview Assets.xcassets in Resources */,
 				43DCF2B2290E57DF00B46A8F /* Assets.xcassets in Resources */,
+				43E3A21229131857004CD358 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +253,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432C4A7A290F8EE50006DCA3 /* FullArtTrainerCardView.swift in Sources */,
+				43D74DFE29123BAC00A78D5E /* LoginView.swift in Sources */,
+				4393943B290EFAD50063A0B0 /* CardViewSelector.swift in Sources */,
+				43939445290F0C340063A0B0 /* AlternateArtBoxView.swift in Sources */,
+				43939434290EE2A80063A0B0 /* CharacterRareView.swift in Sources */,
 				43DCF2B0290E57DD00B46A8F /* ContentView.swift in Sources */,
+				43939436290EEECD0063A0B0 /* SecretRareView.swift in Sources */,
+				4386DCC42918D4A3005E1DDB /* FirestoreManager.swift in Sources */,
+				43939449290F16280063A0B0 /* AlternateArtCardView.swift in Sources */,
+				43939443290F0A620063A0B0 /* EliteTrainerBoxView.swift in Sources */,
+				4386DCC62918EC44005E1DDB /* NewProductView.swift in Sources */,
+				432C4A7E290F95690006DCA3 /* SFCardView.swift in Sources */,
+				43939441290F072A0063A0B0 /* PremiumCollectionView.swift in Sources */,
+				432C4A78290F8BE20006DCA3 /* FullArtCardView.swift in Sources */,
+				4393943F290F03700063A0B0 /* BoosterBoxView.swift in Sources */,
+				43D74E0029123D1600A78D5E /* SignUpView.swift in Sources */,
 				43DCF2AE290E57DD00B46A8F /* CardAppApp.swift in Sources */,
+				432C4A7C290F93F70006DCA3 /* HFCardView.swift in Sources */,
+				43D74E0229123D4A00A78D5E /* JacobView.swift in Sources */,
+				43E3A21429138D54004CD358 /* StartingView.swift in Sources */,
+				4393944B290F1A350063A0B0 /* UniqueCardView.swift in Sources */,
+				4386DCC229188FBF005E1DDB /* TestView.swift in Sources */,
+				4393943D290F02A00063A0B0 /* NoSelectView.swift in Sources */,
+				43939447290F0FAE0063A0B0 /* MiscView.swift in Sources */,
+				43C328A22918887E00407313 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +409,7 @@
 				DEVELOPMENT_TEAM = 4PAFLN527N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +439,7 @@
 				DEVELOPMENT_TEAM = 4PAFLN527N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +480,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43E3A20C29131799004CD358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43E3A20D29131799004CD358 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43E3A20C29131799004CD358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		43E3A20F29131799004CD358 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43E3A20C29131799004CD358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43DCF2A2290E57DD00B46A8F /* Project object */;
 }
